@@ -28,7 +28,7 @@ int find1(int* arr, int size, int num) {
 }
 int main(int argc, char const* argv[]) {
     int arr[5] = { 5,6,7,2,5 };
-    int num = 15;
+    int num = 5;
     display_array(arr, 5);
     printf("%d element is last found at: %d\n", num, find1(arr, 5, num));
     return 0;
